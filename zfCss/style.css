@@ -1,0 +1,15 @@
+.menu {
+    text-align: center;
+    gap: 10px;
+    height: 38px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.menu a {
+    display: inline-block;
+    background-color: rgb(111, 112, 112);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 80px;
+}
