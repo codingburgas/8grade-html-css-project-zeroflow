@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .menu {
     text-align: center;
     gap: 10px;
@@ -11,11 +14,17 @@
     color: white;
     padding: 10px 15px;
     border-radius: 10px;
-    width: 80px;
+    width: 85px;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
+    height: 60px;
+}
+.navlinks {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
 }
 .signbutton {
     width: 90px;
@@ -24,7 +33,17 @@
     color: white;
     font-size: 10px;
 }
-.signinbutton :hover {
-    transform: scale(2);
+.signinbutton:hover {
+    transform: scale(1.02);
     background-color: deepskyblue;
+}
+.navbar img {
+    height: 30px;
+}
+.navlinks button {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(111, 112, 112);
+    border-radius: 10px;
+    color: white;
 }
