@@ -1,41 +1,49 @@
 * {
     box-sizing: border-box;
 }
-.menu {
-    text-align: center;
+.menuVehicles {
     gap: 10px;
     height: 38px;
     margin-top: 50px;
     padding-top: 10px;
 }
-.menu a {
-    display: inline-block;
-    background-color: rgb(111, 112, 112);
-    color: white;
+.menuVehicles a {
+    display: block;
+    color: black;
     padding: 10px 15px;
-    border-radius: 10px;
-    width: 85px;
+    text-decoration: none;
+}
+
+.menuVehicles li {
+    margin-right: 20px;
+    position: relative;
+}
+.drop-menuCars {
+    display: none;
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+.dropMenu1:hover .drop-menuCars {
+    display: block;
+}
+.drop-menuCars:hover {
+    display: block;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 70px;
 }
 .navlinks {
     display: flex;
     justify-content: right;
     gap: 5px;
-}
-.signbutton {
-    width: 90px;
-    height: 40px;
-    background-color: cadetblue;
-    color: white;
-    font-size: 10px;
-}
-.signinbutton:hover {
-    transform: scale(1.02);
-    background-color: deepskyblue;
 }
 .navbar img {
     height: 30px;
@@ -46,4 +54,7 @@
     background-color: rgb(111, 112, 112);
     border-radius: 10px;
     color: white;
+}
+footer {
+    margin-top: 200px;
 }
