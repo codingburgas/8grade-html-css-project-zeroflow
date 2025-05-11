@@ -8,51 +8,86 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <p>Zeroflow – Zero Limits. Full Flow.</p>
-
-                <a href="/zfHtmls/zfsignIn.html"
-                    ><img src="/images/signin.png" alt="sign in icon"
-                /></a>
-            </nav>
-
-            <div class="navlinks">
-                <a href="/zfHtmls/zfAbout.html"><button>About us</button></a>
-
-                <a href="/zfHtmls/zfContacts.html">
-                    <button>Contacts</button></a
-                >
-            </div>
-            <div class="menuVehicles">
-                <div class="dropMenu1">
-                    <a href="#">Cars</a>
-                    <ul class="drop-menuCars">
-                        <li>
-                            <a
-                                href="/menuHtmls/Cars/Mercedes/zfMercedesCars.html"
-                                >Mercedes-Benz</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/menuHtmls/Cars/zfPeugeot.html">Peugeot</a>
-                        </li>
-                        <li>
-                            <a href="/menuHtmls/Cars/zfToyota.html">Toyota</a>
-                        </li>
-                        <li>
-                            <a href="/menuHtmls/Cars/zfVolkswagen.html"
-                                >Volkswagen</a
-                            >
-                        </li>
-                        <li><a href="/menuHtmls/Cars/zfFord.html">Ford</a></li>
-                        <li>
-                            <a href="/menuHtmls/Cars/zfRenaultCars.html"
-                                >Renault</a
-                            >
-                        </li>
-                    </ul>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="/images/zfLogo.png" alt="Logo" />
+                </div>
+                <div class="header-right">
+                    <a href="/zfHtmls/zfsignIn.html" class="login-icon">
+                        <img src="/images/signin.png" alt="Sign In" />
+                    </a>
+                    <nav class="nav-menu">
+                        <div class="menuVehicles">
+                            <div class="dropMenu1">
+                                <a href="#">Cars</a>
+                                <ul class="drop-menuCars">
+                                    <li>
+                                        <a
+                                            href="/menuHtmls/Cars/Mertendes/zfMertendesCars.html"
+                                            >Mertendes-Sens</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="/menuHtmls/Cars/zfPeugeot.html"
+                                            >Peugeot</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="/menuHtmls/Cars/zfToyota.html"
+                                            >Toyota</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/menuHtmls/Cars/zfVolkswagen.html"
+                                            >Volkswagen</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="/menuHtmls/Cars/zfFord.html"
+                                            >Ford</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/menuHtmls/Cars/zfRenaultCars.html"
+                                            >Renault</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/zfHtmls/zfAbout.html">About us</a>
+                            <a href="/zfHtmls/zfContacts.html">Contact us</a>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </header>
+        <section class="hero">
+            <h1>Rent the Car of Your Dreams</h1>
+            <p>Premium vehicles. Zero Limits. Full Flow.</p>
+            <a href="/zfHtmls/zfContacts.html" class="hero-button">Book Now</a>
+        </section>
+        <section class="featured-cars">
+            <h2>Featured Cars</h2>
+            <div class="car-list">
+                <div class="car-miniCard">
+                    <img
+                        src="/images/cars/mertedens-sens/Mertendes GLE 300 D.jpg"
+                        alt="Mertendes"
+                    />
+                    <h3>Mertendes-Sens T25</h3>
+                    <p>
+                        Spacious and elegant SUV, ideal for family trips and
+                        long-distance comfort.
+                    </p>
+                </div>
+                <div class="car-miniCard">
+                    <img src="/images/cars/peugeot1.jpg" alt="Peugeot" />
+                    <h3>Tonota Cozolla</h3>
+                    <p>Perfect for city & long trips.</p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

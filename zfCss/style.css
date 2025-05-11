@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background: #020024;
     background: linear-gradient(
@@ -11,60 +12,167 @@ body {
     );
     color: white;
 }
-.menuVehicles {
-    gap: 10px;
-    height: 38px;
-    margin-top: 50px;
-    padding-top: 10px;
-}
-.menuVehicles a {
-    display: block;
-    color: rgb(250, 245, 245);
-    padding: 10px 15px;
-    text-decoration: none;
-}
 
-.menuVehicles li {
-    margin-right: 20px;
-    position: relative;
-}
-.drop-menuCars {
-    display: none;
-    position: absolute;
-    margin-top: 100%;
-    margin-left: 0;
-    background-color: white;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #ccc;
-}
-.dropMenu1:hover .drop-menuCars {
-    display: block;
-}
-.drop-menuCars:hover {
-    display: block;
-}
-.navbar {
+.header-container {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    padding: 20px 40px;
 }
-.navlinks {
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.header-right {
     display: flex;
-    justify-content: right;
-    gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
 }
-.navbar img {
-    height: 30px;
-}
-.navlinks button {
-    width: 90px;
+
+.login-icon img {
     height: 40px;
-    background-color: rgb(111, 112, 112);
-    border-radius: 10px;
-    color: white;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
+
+/* navbar menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menuVehicles {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menuVehicles a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menuVehicles a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* dropmenu style */
+.dropMenu1 {
+    position: relative;
+}
+
+.drop-menuCars {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f9fa;
+    list-style: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.drop-menuCars li {
+    margin: 5px 0;
+}
+
+.drop-menuCars a {
+    display: block;
+    padding: 8px 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.drop-menuCars a:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.dropMenu1:hover .drop-menuCars {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgb(255, 255, 255, 0.06);
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+.featured-cars {
+    padding: 80px;
+    text-align: center;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.car-miniCard {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    transition: transform 0.3s;
+    
+}
+
+.car-miniCard img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.car-miniCard h3 {
+    margin: 15px 5px;
+}
+
+.car-miniCard:hover {
+    transform: scale(1.05);
+}
+
 footer {
     margin-top: 200px;
 }
