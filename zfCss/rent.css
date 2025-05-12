@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.car-summary {
+    background-color: #fff;
+    color: #000;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.car-summary img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.car-summary h2 {
+    margin: 10px 0 5px;
+}
+
+.rent-form {
+    width: 700px;
+    margin: auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.rent-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rent-form input,
+.rent-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.rent-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.rent-form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rent-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #0a0a0a;
+    padding: 20px;
+    color: #aaa;
+    text-align: center;
+}

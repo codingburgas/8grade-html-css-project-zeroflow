@@ -1,68 +1,156 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 0, 0, 1) 100%
+    );
     padding: 40px;
     margin: 0;
-  }
-  
-  .container {
-    max-width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.container {
+    max-width: 800px;
     margin: auto;
     background: #fff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
-  }
-  
-  .title {
-    background: #223;
+}
+
+.title {
+    background: #007bff;
     color: #fff;
     padding: 12px;
     text-align: center;
     margin-bottom: 25px;
     border-radius: 5px;
-  }
-  
-  .info-section .row {
+}
+
+.info-section .row {
     margin-bottom: 15px;
     line-height: 1.5;
-  }
-  
-  .contact-form .row {
+}
+
+.contact-form .row {
     display: flex;
-    
     gap: 10px;
     margin-bottom: 15px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
     flex: 1 1 48%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .contact-form textarea {
+}
+
+.contact-form textarea {
     width: 100%;
     height: 100px;
     resize: none;
-  }
-  
-  .captcha {
+}
+
+.captcha {
     flex-direction: column;
-  }
-  
-  .captcha input {
+}
+
+.captcha input {
     flex: none;
     width: 50%;
-  }
-  
-  button {
-    background: #223;
+}
+
+button {
+    background: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #111;
+    color: #eee;
+}
+
+/* styles for the footer */
+.footer {
+    background-color: #0a0a0a;
+    padding: 5px;
+    color: #aaa;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-logo img {
+    height: 70px;
+    margin-top: 20px;
+}
+
+.footer-logo p {
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+
+.footer-links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.footer-socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-socials img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+.footer-socials img:hover {
+    transform: scale(1.2);
+}

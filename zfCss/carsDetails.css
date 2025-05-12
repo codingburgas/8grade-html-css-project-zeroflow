@@ -58,6 +58,24 @@ body {
 .row span strong {
     font-weight: 600;
 }
+.rent-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rent-link-button {
+    background: #007bff;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3 ease;
+}
+.rent-link-button:hover {
+    background-color: #0056b3;
+}
 
 .footer {
     background-color: #0a0a0a;
