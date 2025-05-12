@@ -19,7 +19,7 @@ body {
 }
 
 .technical-specs-container {
-    max-width: 800px;
+    width: 750px;
     margin: 40px auto;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -31,7 +31,6 @@ body {
 
 .spec-image {
     width: 100%;
-    max-width: 700px;
     height: auto;
     margin-bottom: 20px; /* space between the photo and the text */
 }
