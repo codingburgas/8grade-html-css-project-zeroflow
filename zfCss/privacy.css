@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.privacy-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.privacy-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.privacy-container section {
+    margin-top: 30px;
+}
+
+.privacy-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.privacy-container p,
+.privacy-container ul {
+    line-height: 1.6;
+}.footer {
+    background-color: #0a0a0a;
+    padding: 3px;
+    color: #aaa;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer-logo img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.footer-logo p {
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+
+.footer-links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.footer-socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-socials img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+.footer-socials img:hover {
+    transform: scale(1.2);
+}
