@@ -14,7 +14,7 @@ header {
 }
 
 .logo {
-    height: 40px;
+    height: 70px;
 }
 
 .terms-container {
@@ -45,7 +45,7 @@ header {
 }
 .footer {
     background-color: #0a0a0a;
-    padding: 3px;
+    padding: 2px;
     color: #aaa;
     text-align: center;
     width: 100%;
